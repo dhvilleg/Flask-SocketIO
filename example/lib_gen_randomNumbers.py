@@ -9,9 +9,9 @@ def print_random_numbers():
 def join_random_pairs():
     join_pair_of_randoms = []
     for i in range(3):
-        min_value = generate_random_numbers()
-        max_value = generate_random_numbers()
-        join_pair_of_randoms.append("{}{}".format(min_value,max_value))
+        first_value = generate_random_numbers()
+        second_value = generate_random_numbers()
+        join_pair_of_randoms.append("{}{}".format(first_value,second_value))
     return join_pair_of_randoms
 
 def join_pairs_in_string():
